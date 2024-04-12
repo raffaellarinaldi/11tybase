@@ -1,0 +1,57 @@
+{
+  "name": "11tybase",
+  "version": "1.0.0",
+  "description": "Starter 11ty installation for all projects by Raffaella Rinaldi",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./node_modules",
+    "serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "build": "ELEVENTY_ENV=production npx @11ty/eleventy",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "author": "Raffaella Rinaldi",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raffaellarinaldi/11tybase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raffaellarinaldi/11tybase/issues"
+  },
+  "homepage": "https://github.com/raffaellarinaldi/11tybase#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "@11ty/eleventy-fetch": "^4.0.1",
+    "@11ty/eleventy-img": "^4.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.4.1",
+    "eleventy-plugin-embed-everything": "^1.18.2",
+    "eleventy-sass": "^2.2.4",
+    "glob-promise": "^6.0.5",
+    "html-minifier": "^4.0.0",
+    "promise": "^8.3.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@highlightjs/cdn-assets": "^11.9.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "flickity": "^3.0.0",
+    "gumshoejs": "^5.1.2",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1",
+    "simplelightbox": "^2.14.3",
+    "smoothscroll-polyfill": "^0.4.4",
+    "stellar.js": "^0.6.5",
+    "tiny-slider": "^2.9.4",
+    "uikit": "^3.19.4",
+    "vanilla-back-to-top": "^7.2.1"
+  }
+}
