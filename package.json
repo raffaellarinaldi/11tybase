@@ -32,7 +32,7 @@
     "dotenv-cli": "^7.4.2",
     "eleventy-plugin-embed-everything": "^1.18.2",
     "eleventy-sass": "^2.2.4",
-    "glob-promise": "^6.0.5",
+    "glob-promise": "^6.0.7",
     "html-minifier": "^4.0.0",
     "promise": "^8.3.0"
   },
@@ -52,7 +52,7 @@
     "smoothscroll-polyfill": "^0.4.4",
     "stellar.js": "^0.6.5",
     "tiny-slider": "^2.9.4",
-    "uikit": "^3.21.4",
+    "uikit": "^3.21.5",
     "vanilla-back-to-top": "^7.2.1"
   }
 }
