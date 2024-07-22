@@ -27,7 +27,8 @@
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
     "cheerio": "^1.0.0-rc.12",
-    "dayjs": "^1.11.11",
+    "dayjs": "^1.11.12",
+    "deepmerge": "^4.3.1",
     "dotenv": "^16.4.5",
     "dotenv-cli": "^7.4.2",
     "eleventy-plugin-embed-everything": "^1.18.2",
@@ -37,8 +38,8 @@
     "promise": "^8.3.0"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.2",
-    "@highlightjs/cdn-assets": "^11.9.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@highlightjs/cdn-assets": "^11.10.0",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
@@ -52,7 +53,7 @@
     "smoothscroll-polyfill": "^0.4.4",
     "stellar.js": "^0.6.5",
     "tiny-slider": "^2.9.4",
-    "uikit": "^3.21.5",
+    "uikit": "^3.21.7",
     "vanilla-back-to-top": "^7.2.1"
   }
 }
