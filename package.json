@@ -1,0 +1,50 @@
+{
+  "name": "11tybase",
+  "version": "2.0.0",
+  "description": "Starter 11ty installation for all projects by Raffaella Rinaldi",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./node_modules"
+  },
+  "author": "Raffaella Rinaldi",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raffaellarinaldi/11tybase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raffaellarinaldi/11tybase/issues"
+  },
+  "homepage": "https://github.com/raffaellarinaldi/11tybase#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "@11ty/eleventy-fetch": "^5.1.1",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@quasibit/eleventy-plugin-schema": "^1.12.0",
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
+    "cheerio": "^1.2.0",
+    "dayjs": "^1.11.19",
+    "deepmerge": "^4.3.1",
+    "dotenv": "^17.2.3",
+    "dotenv-cli": "^11.0.0",
+    "eleventy-plugin-embed-everything": "^1.21.1",
+    "eleventy-sass": "^3.0.0-beta.0",
+    "esbuild": "^0.27.2",
+    "fs-extra": "^11.3.3",
+    "glob-promise": "^6.0.7",
+    "html-minifier-terser": "^7.2.0",
+    "lodash": "^4.17.23",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-footnote": "^4.0.0",
+    "translate": "^3.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8",
+    "uikit": "^3.25.8"
+  }
+}
